@@ -31,7 +31,7 @@
          </asp:DropDownList>
         
      </div>
-     <asp:Button runat="server" ID="btnsubmit" CssClass="btn btn-primary" Text="Submit" />
+     <asp:Button runat="server" OnClick="btnsubmit_Click" ID="btnsubmit" CssClass="btn btn-primary" Text="Submit" />
 
 
  
